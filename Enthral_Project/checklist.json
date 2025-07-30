@@ -1,0 +1,107 @@
+{
+  "checklist": {
+    "title": "Daily Productivity Assessment",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Have you completed your morning routine?",
+        "options": [
+          "Yes, completely finished",
+          "Partially completed", 
+          "Just started",
+          "Haven't started yet"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Did you review your daily goals and priorities?",
+        "options": [
+          "Yes, thoroughly reviewed and planned",
+          "Quick overview only",
+          "No time to review today",
+          "Don't have goals set up"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Is your workspace clean and organized?",
+        "options": [
+          "Very organized and ready",
+          "Somewhat organized",
+          "Needs some cleanup",
+          "Completely disorganized"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Have you had a proper breakfast?",
+        "options": [
+          "Yes, full nutritious meal",
+          "Light snack or quick bite",
+          "Just coffee/tea/beverage",
+          "Nothing yet"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Did you check and respond to important emails?",
+        "options": [
+          "All caught up and responded",
+          "Read but didn't respond to all",
+          "Too many emails to handle",
+          "No important emails today"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Have you completed your scheduled exercise or physical activity?",
+        "options": [
+          "Yes, full workout completed",
+          "Light exercise or walk",
+          "Planned but didn't do it",
+          "No exercise planned today"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Did you take any breaks or practice mindfulness?",
+        "options": [
+          "Yes, multiple breaks taken",
+          "One short break",
+          "Wanted to but too busy",
+          "No breaks needed today"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Have you connected with family or friends today?",
+        "options": [
+          "Yes, meaningful conversations",
+          "Quick check-in or messages",
+          "Planned to but haven't yet",
+          "No social interaction planned"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Did you make progress on your main project or task?",
+        "options": [
+          "Significant progress made",
+          "Some progress, small steps",
+          "Started but got distracted",
+          "Haven't started yet"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Are you staying hydrated throughout the day?",
+        "options": [
+          "Yes, drinking water regularly",
+          "Had some water but not enough",
+          "Mostly other beverages",
+          "Forgot to drink much today"
+        ]
+      }
+    ]
+  }
+}
