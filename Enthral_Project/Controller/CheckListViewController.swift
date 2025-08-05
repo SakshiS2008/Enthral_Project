@@ -87,6 +87,9 @@ class CheckListViewController: UIViewController {
         if let data = try? JSONEncoder().encode(previousResponses) {
                UserDefaults.standard.set(data, forKey: "savedResponses")
            }
+        
+        UserDefaults.standard.removeObject(forKey: "sakshi")
+
 
             // You can now save or upload results here
         let savedResponseVC = self.storyboard?.instantiateViewController(withIdentifier: "SavedResponseViewController") as! SavedResponseViewController

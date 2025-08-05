@@ -50,6 +50,7 @@ extension SavedResponseViewController: UITableViewDataSource, UITableViewDelegat
         cell.accessoryType = .disclosureIndicator
         return cell
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
            let response = savedResponses[indexPath.row]
            let detailVC = ResponseDetailViewController()

@@ -33,10 +33,11 @@ class ResponseDetailViewController: UIViewController {
         let contentLabel = UILabel()
         contentLabel.numberOfLines = 0
         contentLabel.translatesAutoresizingMaskIntoConstraints = false
-
-        let qaText = response.questionsAndAnswers.enumerated().map {
-            "Q\($0.offset + 1): \($0.element.question)\nA: \($0.element.answer)"
+        
+        let qaText = response.questionsAndAnswers.enumerated().map { index, qa in
+            "Q\(index + 1): \(qa.question)\nA: \(qa.answer)"
         }.joined(separator: "\n\n")
+
 
         contentLabel.text = """
         Name: \(response.userName)
